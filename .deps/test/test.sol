@@ -6,5 +6,7 @@ contract HelloWorld {
 
     string sVal = "hello world";
 
-    // function syhello() public view  
+    function syhello() public view  returns(string memory) {
+        return sVal;
+    }
 }
