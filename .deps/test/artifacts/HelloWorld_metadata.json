@@ -4,7 +4,34 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "newString",
+						"type": "string"
+					}
+				],
+				"name": "setHello",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "syhello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +60,11 @@
 	},
 	"sources": {
 		".deps/test/test.sol": {
-			"keccak256": "0x656b98482a7b734f4f43b0c37c0eecd88b3f0380d3c598ad3670cc76d0358b33",
+			"keccak256": "0xa70d733d13aa6b354c005e977f463acc1f25892b6c26404034918414a20480bd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f2979bb19eca2dd419df2b54e36d3687192a658c1a0cb6d1c9f5bbf0536f544a",
-				"dweb:/ipfs/QmUQrdTs6NpKbmmuVK5YxpR6Sb364MbpLo9PFE7aCtQPwA"
+				"bzz-raw://68f34e3844bf2450839c44a8af9cf636f0f08fbdb76e58cf43f61ede766a1a20",
+				"dweb:/ipfs/Qmeg4hoJQcSxQaf8T6cCaoidHhNvbXEkBJCpe2jih181mF"
 			]
 		}
 	},

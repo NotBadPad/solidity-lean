@@ -9,4 +9,10 @@ contract HelloWorld {
     function syhello() public view  returns(string memory) {
         return sVal;
     }
+
+    function setHello(string memory newString) public {
+        sVal = newString;
+    } 
+
+    
 }
