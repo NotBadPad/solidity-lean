@@ -7,12 +7,14 @@ contract HelloWorld {
     string sVal = "hello world";
 
     function syhello() public view  returns(string memory) {
-        return sVal;
+        return addInfo(sVal);
     }
 
     function setHello(string memory newString) public {
         sVal = newString;
     } 
 
-    
+    function addInfo(string memory oldStr) internal pure returns(string memory) {
+        return string.concat(oldStr, " add str");
+    }
 }
