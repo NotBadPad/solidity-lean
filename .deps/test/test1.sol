@@ -7,4 +7,7 @@ contract HelloWorld1 {
     int intVal1 = -1231;
     bool  boolVal = false;
     bytes8 byteVal = "123";
+
+    //memory
+    //calldata
 }
